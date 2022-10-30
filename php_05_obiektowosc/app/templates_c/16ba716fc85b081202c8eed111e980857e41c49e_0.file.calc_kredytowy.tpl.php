@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.2.1, created on 2022-10-30 15:19:03
-  from 'H:\programy1\xampp\htdocs\aplikacje_sieciowe\php_04_szablony_smarty\app\calc_kredytowy.tpl' */
+/* Smarty version 4.2.1, created on 2022-10-26 20:46:29
+  from 'H:\programy1\xampp\htdocs\aplikacje_sieciowe\php_04_szablony_smarty1\calc_kredytowy.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_635e87d7a25598_22084409',
+  'unifunc' => 'content_635980859aab94_95618475',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    '38f3c7a892877c94adf1985d8f4758dbb3f7a57e' => 
+    '16ba716fc85b081202c8eed111e980857e41c49e' => 
     array (
-      0 => 'H:\\programy1\\xampp\\htdocs\\aplikacje_sieciowe\\php_04_szablony_smarty\\app\\calc_kredytowy.tpl',
-      1 => 1667139162,
+      0 => 'H:\\programy1\\xampp\\htdocs\\aplikacje_sieciowe\\php_04_szablony_smarty1\\calc_kredytowy.tpl',
+      1 => 1666809988,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_635e87d7a25598_22084409 (Smarty_Internal_Template $_smarty_tpl) {
+function content_635980859aab94_95618475 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
@@ -29,16 +29,16 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_871755083635e87d7a1a886_29215214', 'content');
-$_smarty_tpl->inheritance->endChild($_smarty_tpl, "../templates/main.tpl");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1232072170635980859a19e3_15707204', 'content');
+$_smarty_tpl->inheritance->endChild($_smarty_tpl, "../templates/main.html");
 }
 /* {block 'content'} */
-class Block_871755083635e87d7a1a886_29215214 extends Smarty_Internal_Block
+class Block_1232072170635980859a19e3_15707204 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_871755083635e87d7a1a886_29215214',
+    0 => 'Block_1232072170635980859a19e3_15707204',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -47,7 +47,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 
 <section id ="one">
 	<h4>Kalkulator kredytowy</h4>
-	<form method="post" action="#one">
+	<form method="post" action="#">
 		<div class="row gtr-uniform">
 			<div class="col-7 col-12-xsmall">
 				<label for="id_x">Kwota: </label>
@@ -56,12 +56,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 			
 			<div class="col-7 col-12-xsmall">
 				<label for="id_op">Oprocentowanie: </label>
-				<input type="text" name="op" id="demo-name" value="" placeholder="Oprocentowanie" />
+				<input type="email" name="op" id="demo-email" value="" placeholder="Oprocentowanie" />
 			</div>
 
 			<div class="col-7 col-12-xsmall">
 				<label for="id_y">Ile lat: </label>	
-				<input type="text" name="y" id="demo-name" value="" placeholder="Ile lat" />
+				<input type="email" name="y" id="demo-email" value="" placeholder="Ile lat" />
 			</div>
 			<div class="col-12">
 				<ul class="actions">
@@ -112,10 +112,10 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 }?>
 
 <?php if ((isset($_smarty_tpl->tpl_vars['result']->value))) {?>
-	<h4>Wynik:</h4>
+	<h4>Wynik</h4>
 	<p class="res">
-	Kwota miesięcznej raty: <?php echo $_smarty_tpl->tpl_vars['result']->value;?>
- zł
+	<?php echo $_smarty_tpl->tpl_vars['result']->value;?>
+
 	</p>
 <?php }?>
 

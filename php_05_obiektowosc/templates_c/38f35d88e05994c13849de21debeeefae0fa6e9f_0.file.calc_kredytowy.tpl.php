@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.2.1, created on 2022-10-30 15:19:03
-  from 'H:\programy1\xampp\htdocs\aplikacje_sieciowe\php_04_szablony_smarty\app\calc_kredytowy.tpl' */
+/* Smarty version 4.2.1, created on 2022-10-28 18:57:11
+  from 'H:\programy1\xampp\htdocs\aplikacje_sieciowe\php_04_szablony_smarty1\app\calc_kredytowy.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_635e87d7a25598_22084409',
+  'unifunc' => 'content_635c09e7817a56_45405679',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    '38f3c7a892877c94adf1985d8f4758dbb3f7a57e' => 
+    '38f35d88e05994c13849de21debeeefae0fa6e9f' => 
     array (
-      0 => 'H:\\programy1\\xampp\\htdocs\\aplikacje_sieciowe\\php_04_szablony_smarty\\app\\calc_kredytowy.tpl',
-      1 => 1667139162,
+      0 => 'H:\\programy1\\xampp\\htdocs\\aplikacje_sieciowe\\php_04_szablony_smarty1\\app\\calc_kredytowy.tpl',
+      1 => 1666976229,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_635e87d7a25598_22084409 (Smarty_Internal_Template $_smarty_tpl) {
+function content_635c09e7817a56_45405679 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
@@ -29,16 +29,16 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_871755083635e87d7a1a886_29215214', 'content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1135161292635c09e770ef14_37488982', 'content');
 $_smarty_tpl->inheritance->endChild($_smarty_tpl, "../templates/main.tpl");
 }
 /* {block 'content'} */
-class Block_871755083635e87d7a1a886_29215214 extends Smarty_Internal_Block
+class Block_1135161292635c09e770ef14_37488982 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_871755083635e87d7a1a886_29215214',
+    0 => 'Block_1135161292635c09e770ef14_37488982',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
