@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 4.2.1, created on 2022-11-18 00:35:27
-  from 'H:\programy1\xampp\htdocs\aplikacje_sieciowe\php_07_role\app\views\calc_kredytowy.tpl' */
+/* Smarty version 4.2.1, created on 2022-11-18 00:33:38
+  from 'H:\programy1\xampp\htdocs\aplikacje_sieciowe\php_07_routing\app\views\calc_kredytowy.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.1',
-  'unifunc' => 'content_6376c53f99d965_31268087',
+  'unifunc' => 'content_6376c4d2193030_74230499',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    'cc198b57af71abacb24f5f734332b236467238d0' => 
+    'c22b2299647253c3a6cde3e030d184f8c6de8627' => 
     array (
-      0 => 'H:\\programy1\\xampp\\htdocs\\aplikacje_sieciowe\\php_07_role\\app\\views\\calc_kredytowy.tpl',
+      0 => 'H:\\programy1\\xampp\\htdocs\\aplikacje_sieciowe\\php_07_routing\\app\\views\\calc_kredytowy.tpl',
       1 => 1668725050,
       2 => 'file',
     ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:messages.tpl' => 1,
   ),
 ),false)) {
-function content_6376c53f99d965_31268087 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6376c4d2193030_74230499 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
@@ -30,7 +30,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_15281512276376c53f992fa9_75861518', 'content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_15673537766376c4d218b4a7_38270546', 'content');
 ?>
 
 		
@@ -45,12 +45,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_15281512276376c53f
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, "main.tpl");
 }
 /* {block 'content'} */
-class Block_15281512276376c53f992fa9_75861518 extends Smarty_Internal_Block
+class Block_15673537766376c4d218b4a7_38270546 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_15281512276376c53f992fa9_75861518',
+    0 => 'Block_15673537766376c4d218b4a7_38270546',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
