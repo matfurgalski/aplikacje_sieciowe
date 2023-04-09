@@ -15,8 +15,7 @@ class ListaUzytkownikowCtrl {
     private $page = 1;
     
     
-    public function __construct() {
-        //stworzenie potrzebnych obiektów
+    public function __construct() {   
         $this->form = new SzukajUzytkownikaForm();
     }
 
@@ -30,27 +29,18 @@ class ListaUzytkownikowCtrl {
         if(!empty(ParamUtils::getFromCleanURL(2, true)))
         $this->form->login = ParamUtils::getFromCleanURL(2, true);
 
-        $search_params = []; //przygotowanie pustej struktury (aby była dostępna nawet gdy nie będzie zawierała wierszy)
+        $search_params = []; 
         if (isset($this->form->login) && strlen($this->form->login) > 0) {
-            $search_params['login[~]'] = $this->form->login . '%'; // dodanie symbolu % zastępuje dowolny ciąg znaków na końcu
+            $search_params['login[~]'] = $this->form->login . '%'; 
         }
 
-        // 3. Pobranie listy rekordów z bazy danych
-        // W tym wypadku zawsze wyświetlamy listę osób bez względu na to, czy dane wprowadzone w formularzu wyszukiwania są poprawne.
-        // Dlatego pobranie nie jest uwarunkowane poprawnością walidacji (jak miało to miejsce w kalkulatorze)
-        //przygotowanie frazy where na wypadek większej liczby parametrów
+        
         $num_params = sizeof($search_params);
         if ($num_params > 1) {
             $where = ["AND" => &$search_params];
         } else {
             $where = &$search_params;
         }
-        //dodanie frazy sortującej po nazwisku
-        
-        
-        //wykonanie zapytania
-        
-        
 
         if($this->page == 0)
         $this->page = 1;
